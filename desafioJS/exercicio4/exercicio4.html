@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="author" content="neto-luciano">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <div id="form">
+            <h1>Exercício 4</h1>
+            <div class="form-2">
+                <label for="temp">Insira os nomes na lista</label>
+                <div class="form-3">
+                    <input id="nome" name="numero" autocomplete="off" type="text" placeholder="Insira o nome..." class="inputs">
+                    <button id="adicionar" onclick="insert()">+</button>
+                </div>
+            </div>
+            <div class="form-2">
+                <label for="tempDese">Nomes Listados</label>
+                <div class="form-3">
+                    <textarea name="" id="text_area" cols="30" rows="10" readonly></textarea>
+                </div>
+            </div>
+            <button class="button" id="verificar" onclick="mostrar()">VERIFICAR</button>
+            <button class="button" id="limpar">LIMPAR</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
